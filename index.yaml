@@ -1,3 +1,20 @@
 apiVersion: v1
-entries: {}
-generated: "2025-05-28T15:38:13.452598+05:30"
+entries:
+  demo-chart:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: New endpoint for metrics
+        - kind: fixed
+          description: Fixed crash loop on startup
+    apiVersion: v2
+    appVersion: 1.2.0
+    created: "2025-05-28T18:10:48.40986+05:30"
+    description: A dummy Helm chart for Artifact Hub changelog testing
+    digest: 2183e3ca896485c5027d4efcc32e5e9e1f35f849bdfd81328bfbb6e697b8599b
+    name: demo-chart
+    type: application
+    urls:
+    - https://swethalohith2.github.io/demo-charts/demo-chart-1.2.0.tgz
+    version: 1.2.0
+generated: "2025-05-28T18:10:48.40908+05:30"
