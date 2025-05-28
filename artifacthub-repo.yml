@@ -1,0 +1,6 @@
+repositoryID: "00000000-0000-0000-0000-000000000000" # Replace with actual ID from Artifact Hub if known
+name: Demo-charts
+displayName: Demo Charts
+description: Demo Helm charts for testing
+type: helm
+url: https://demo-charts.com/helm-charts
